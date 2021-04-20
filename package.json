@@ -1,5 +1,5 @@
 {
-  "name": "survey-bs",
+  "name": "survey-be",
   "version": "1.0.0",
   "description": "",
   "author": "Prajesh Ananthan",
@@ -7,6 +7,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "passport": "^0.4.1",
-    "passport-google": "^0.3.0"
+    "passport-google-oauth20": "^2.0.0"
   }
 }
