@@ -10,7 +10,7 @@ passport.serializeUser((user, done) => {
   done(null, user.id);
 })
 
-// To be used in cookies
+// Turn userId into user
 passport.deserializeUser((id, done) => {
   User.findById(id)
     .then(user => {
